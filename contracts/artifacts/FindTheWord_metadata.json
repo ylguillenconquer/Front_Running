@@ -1,0 +1,77 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "payable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "secretHash",
+				"outputs": [
+					{
+						"internalType": "bytes32",
+						"name": "",
+						"type": "bytes32"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "solution",
+						"type": "string"
+					}
+				],
+				"name": "solve",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/FrontRuning_Vulnerable.sol": "FindTheWord"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/FrontRuning_Vulnerable.sol": {
+			"keccak256": "0xedfb1bbe5c1c0e6a71561274b6438a8ac55c9b465602ace4bd419fa44da85ae6",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://b43a181b5fdba33924d63743fe78a98bc29662a7d9302a41a4fc6b4e6960a69d",
+				"dweb:/ipfs/QmRdmvNESMaJUbHrTastmuYJADNrVHhpP8jDsxXoF37eFG"
+			]
+		}
+	},
+	"version": 1
+}
